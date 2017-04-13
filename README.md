@@ -21,8 +21,8 @@ $email = new \mhndev\messagingSdk\Email(
 
 $client = new \mhndev\messagingSdk\Client(
     new \GuzzleHttp\Client(),
-    'http://digipeyk.com:8060/sms',
-    'http://digipeyk.com:8060/email'
+    'http://example.com/send-sms',
+    'http://example.com/send-email'
 );
 
 $client->sendSms($sms);
